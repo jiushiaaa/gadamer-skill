@@ -1,0 +1,320 @@
+{
+  "id": "gadamer-perspective",
+  "date": "2026-10-13",
+  "coverage": [
+    "1960《真理与方法》英译266–307断续摘录，非连续章；德文全章仍未补。",
+    "1993访谈局部继承；1994《从词到概念》：本轮德文66–97行补读，1995收入111–124页的转载。",
+    "Habermas/Derrida论争双方及完整问答逻辑未读。"
+  ],
+  "model_audit": [
+    {
+      "model": "G-A",
+      "name": "前理解修订",
+      "cross_domain_evidence": "G1文本理解；G7 77–81人际理解有让对方可能正确的局部复现，不等同同一纠错算法。",
+      "status": "理解条件的操作提示",
+      "generativity": "未完成独立留出答题验证；自拟迁移不是原作复现",
+      "distinctiveness": "理论差异待盲读对照实证，不自评",
+      "generativity_hypothesis": "预期记录初读如何因对象反向证据而修订",
+      "distinctiveness_hypothesis": "开放由有限历史处境出发，不假设无前见读者"
+    },
+    {
+      "model": "G-B",
+      "name": "提问开放",
+      "cross_domain_evidence": "G2访谈、G1问答逻辑选段；两个体裁而非两个充分独立领域。",
+      "status": "有界提示",
+      "generativity": "未完成独立留出答题验证；自拟迁移不是原作复现",
+      "distinctiveness": "理论差异待盲读对照实证，不自评",
+      "generativity_hypothesis": "预期让对方拒绝题设并改变问题",
+      "distinctiveness_hypothesis": "类似普通访谈法，作者专属性尚弱"
+    },
+    {
+      "model": "G-C",
+      "name": "两种尺度",
+      "cross_domain_evidence": "G7艺术史66–69，政治/平衡71–75，生态76；作者实有跨领域类比与论证，非领域效果实证。",
+      "status": "补强跨域，禁止取消测量",
+      "generativity": "未完成独立留出答题验证；自拟迁移不是原作复现",
+      "distinctiveness": "理论差异待盲读对照实证，不自评",
+      "generativity_hypothesis": "预期肯定有效测量同时保留合宜判断",
+      "distinctiveness_hypothesis": "不同于反科学直觉主义；不是所有事取平均"
+    },
+    {
+      "model": "G-D",
+      "name": "开放视域",
+      "cross_domain_evidence": "G1历史视域；G7跨文化理解82–91只是相关材料，不能取代视域原论证。",
+      "status": "概念辨析",
+      "generativity": "未完成独立留出答题验证；自拟迁移不是原作复现",
+      "distinctiveness": "理论差异待盲读对照实证，不自评",
+      "generativity_hypothesis": "预期检查当下和过去视域是否被误写成封闭容器",
+      "distinctiveness_hypothesis": "不保证融合抹除分歧，也不等于文化相对主义"
+    }
+  ],
+  "primary_additions": [
+    {
+      "url": "https://jochenteuffel.com/2018/11/11/hans-georg-gadamers-vortrag-vom-wort-zum-begriff-die-aufgabe-der-hermeneutik-als-philosophie-bei-den-bamberger-hegelwochen-1994/",
+      "locator": "66–97行；讲演末半，原刊119–124附近",
+      "reading": "补G-C：从艺术史方法到骑车平衡的政治类比，再到生态生活。作者承认两类尺度都重要，并承认不是政治学专家。跨文化粗疏断言未按当代经验事实采用。",
+      "source_grade": "作者一手文本网络转载；版本/翻译限制见coverage；不是全集"
+    }
+  ],
+  "tensions": [
+    "测量可靠性与合宜判断共同必要：G7 66–69，不让一边取消另一边。",
+    "理解他人可能有理与仍然不赞同：G7 77–81；团结目标不承诺消除所有差异。"
+  ],
+  "remaining_gaps": [
+    "G-B与G-D跨域证明不足",
+    "20段仅单篇德文晚期讲演",
+    "连续主著和争论双方缺口仍在"
+  ],
+  "score": null,
+  "expression": {
+    "sample_method": "requests + BeautifulSoup html.parser; normalize whitespace; >150 character paragraphs; random.Random(20261013).sample sorted. entry-content p; exclude index0 editor introduction and bibliographic paragraphs; index references this container.",
+    "eligible_count": 39,
+    "sample_count": 20,
+    "source_url": "https://jochenteuffel.com/2018/11/11/hans-georg-gadamers-vortrag-vom-wort-zum-begriff-die-aufgabe-der-hermeneutik-als-philosophie-bei-den-bamberger-hegelwochen-1994/",
+    "source_language": "de",
+    "metrics": {
+      "characters": 16527,
+      "words": 2573,
+      "sentence_end_groups": 126,
+      "question_marks": 10,
+      "first_person_tokens": 54,
+      "contrast_tokens": 20,
+      "words_per_sentence": 20.421,
+      "question_marks_per_sentence": 0.0794,
+      "contrast_per_1000_words": 7.773,
+      "analogy_density": null,
+      "certainty_ratio": null,
+      "characters_per_sentence": 131.167,
+      "first_person_per_1000_words": 20.987
+    },
+    "samples": [
+      {
+        "locator": "HTML paragraph index 4 (0-based; source-specific container)",
+        "sha256": "fa257b9645c9b08109a1f9f1d26c121417d88c6517b0618ed608e2e61caf56ee",
+        "characters": 784,
+        "words": 128,
+        "sentence_end_groups": 7,
+        "question_marks": 2,
+        "first_person_tokens": 9,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML paragraph index 6 (0-based; source-specific container)",
+        "sha256": "d1c26e532466309589d5cf3d9992243aa5bfbe698fe4f84e7cec91faa4fceff3",
+        "characters": 893,
+        "words": 145,
+        "sentence_end_groups": 7,
+        "question_marks": 0,
+        "first_person_tokens": 6,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "HTML paragraph index 7 (0-based; source-specific container)",
+        "sha256": "d826e5879766a8dd4e65a836a1c4ccfc5836e7729b857be93572356a9245c876",
+        "characters": 974,
+        "words": 143,
+        "sentence_end_groups": 5,
+        "question_marks": 1,
+        "first_person_tokens": 2,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML paragraph index 10 (0-based; source-specific container)",
+        "sha256": "43668dffd715a3086d8d7522f4220f8d6a1df26d484149bad906e963f0607ac6",
+        "characters": 590,
+        "words": 91,
+        "sentence_end_groups": 2,
+        "question_marks": 1,
+        "first_person_tokens": 1,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML paragraph index 11 (0-based; source-specific container)",
+        "sha256": "37a6c6f0017a7b90442f46424f0ce7a3837cb68aa5a4c904d47286b664fbfe42",
+        "characters": 515,
+        "words": 78,
+        "sentence_end_groups": 2,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML paragraph index 16 (0-based; source-specific container)",
+        "sha256": "8a3cca08b393c6f8fbb630d68aabb3c1df1a43d385ab3e2d4b31ff1a1e8e33b0",
+        "characters": 609,
+        "words": 83,
+        "sentence_end_groups": 2,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML paragraph index 21 (0-based; source-specific container)",
+        "sha256": "ef06de04174f5c85506374172544d5c41c0b329c6755c4658769747d88f5dded",
+        "characters": 823,
+        "words": 125,
+        "sentence_end_groups": 5,
+        "question_marks": 2,
+        "first_person_tokens": 4,
+        "contrast_tokens": 2
+      },
+      {
+        "locator": "HTML paragraph index 22 (0-based; source-specific container)",
+        "sha256": "aeb791e4ec3776eef320e18af8ab6fa1deef52f292b19fa93a0ec4ea10a6eb15",
+        "characters": 1043,
+        "words": 160,
+        "sentence_end_groups": 10,
+        "question_marks": 0,
+        "first_person_tokens": 1,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "HTML paragraph index 24 (0-based; source-specific container)",
+        "sha256": "2c523068b97fe58d2a55e4ac97641a59130e0c76a4a63e8fa01b31cba740fd78",
+        "characters": 883,
+        "words": 146,
+        "sentence_end_groups": 7,
+        "question_marks": 0,
+        "first_person_tokens": 2,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "HTML paragraph index 27 (0-based; source-specific container)",
+        "sha256": "1ad0cd6aefaea088450eb9dbb57864e7b35f200837faf99e0bfc10b8b36e71e1",
+        "characters": 567,
+        "words": 95,
+        "sentence_end_groups": 9,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "HTML paragraph index 29 (0-based; source-specific container)",
+        "sha256": "6d3f5a79ab62e6773e2a80bfdb62c138716652a0fb1e3d32a8bcf8f7ae9705e7",
+        "characters": 1309,
+        "words": 201,
+        "sentence_end_groups": 11,
+        "question_marks": 0,
+        "first_person_tokens": 7,
+        "contrast_tokens": 3
+      },
+      {
+        "locator": "HTML paragraph index 30 (0-based; source-specific container)",
+        "sha256": "27f8cf0ecf955c45ceb547253c6cf2ea70a4597782c1f7d1d8e4e3e62288389e",
+        "characters": 1236,
+        "words": 202,
+        "sentence_end_groups": 12,
+        "question_marks": 1,
+        "first_person_tokens": 10,
+        "contrast_tokens": 2
+      },
+      {
+        "locator": "HTML paragraph index 31 (0-based; source-specific container)",
+        "sha256": "0683a6d3b1a6d3e1c674f671ff77be93f4ffd1f294453f51e8a616cc54897df6",
+        "characters": 1085,
+        "words": 172,
+        "sentence_end_groups": 8,
+        "question_marks": 0,
+        "first_person_tokens": 2,
+        "contrast_tokens": 3
+      },
+      {
+        "locator": "HTML paragraph index 32 (0-based; source-specific container)",
+        "sha256": "1e100fdee7c0edad1b5aed04516a2fbd3e6cdaa6b99a3c16fb0e8e1f78b87cb3",
+        "characters": 478,
+        "words": 77,
+        "sentence_end_groups": 3,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "HTML paragraph index 33 (0-based; source-specific container)",
+        "sha256": "b3cfc57f9f6021f1bd62ec4ea9f61c51ffdf75380d5c1ead9dcdcfe012794419",
+        "characters": 1210,
+        "words": 185,
+        "sentence_end_groups": 14,
+        "question_marks": 1,
+        "first_person_tokens": 2,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "HTML paragraph index 34 (0-based; source-specific container)",
+        "sha256": "fdf5df64fb1e3752ea9222f59d3e05b2e847b009afcf4e0121af21d6cddb68c9",
+        "characters": 1550,
+        "words": 230,
+        "sentence_end_groups": 12,
+        "question_marks": 0,
+        "first_person_tokens": 5,
+        "contrast_tokens": 2
+      },
+      {
+        "locator": "HTML paragraph index 35 (0-based; source-specific container)",
+        "sha256": "3c977c82cd1a6b92be621778e7adefde6e6f33c881e131250e197acb1f7f2265",
+        "characters": 334,
+        "words": 55,
+        "sentence_end_groups": 2,
+        "question_marks": 0,
+        "first_person_tokens": 1,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "HTML paragraph index 36 (0-based; source-specific container)",
+        "sha256": "8e3b94ef31ba89a89fa69731a3f768f925d2dbb949c0bd3097c7f54682c9dfbf",
+        "characters": 197,
+        "words": 26,
+        "sentence_end_groups": 1,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML paragraph index 38 (0-based; source-specific container)",
+        "sha256": "699b2c34e78865e76d5198d9a9ef7da914367d5236707c3002b0eead56c00ce3",
+        "characters": 994,
+        "words": 157,
+        "sentence_end_groups": 5,
+        "question_marks": 0,
+        "first_person_tokens": 2,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML paragraph index 40 (0-based; source-specific container)",
+        "sha256": "61fa265a98d38aeee5111cfedb11d49a4486c972afa49545a399e57d9e924a8a",
+        "characters": 453,
+        "words": 74,
+        "sentence_end_groups": 2,
+        "question_marks": 2,
+        "first_person_tokens": 0,
+        "contrast_tokens": 1
+      }
+    ],
+    "limitations": [
+      "Single-text sample; not representative of entire oeuvre.",
+      "Mechanical sentence punctuation is affected by abbreviations and editorial punctuation.",
+      "First-person is lexical proxy, not semantic annotation.",
+      "Analogy and certainty have not been annotated, null is not zero.",
+      "Translation metrics describe this translation, never author original-language syntax."
+    ],
+    "style_rules": [
+      "从熟悉实践引出概念，再返回他人可能提出的异议。",
+      "保留‘理解了’与‘赞成了’之间的余地。",
+      "给判断的具体理由，不把平衡写成固定折中结论。"
+    ],
+    "anti_patterns": [
+      "不拼贴标志性引语",
+      "不把译者文风归作者",
+      "不以文风代替事实证据",
+      "默认中性；文游不启用人物表达"
+    ],
+    "metric_definitions": {
+      "words": "Unicode letter words with apostrophe/hyphen joins",
+      "certainty": "unannotated null",
+      "first_person": "en exact I/me/my; de case-insensitive ich/mein/meine; fr je/moi/mon/ma/mes",
+      "analogy": "unannotated null",
+      "contrast": "en but/however/nevertheless/yet; de aber/jedoch/sondern/dennoch/gleichwohl; fr mais/cependant/pourtant/néanmoins",
+      "characters": "Unicode normalized text length (Python codepoints; Levi JS UTF16)",
+      "sentences": "count regex [.!?]+ followed by whitespace or end; minimum1 per unit"
+    }
+  }
+}

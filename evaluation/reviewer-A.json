@@ -1,0 +1,85 @@
+{
+  "id": "gadamer-perspective",
+  "judge": "A",
+  "model": "unknown",
+  "known_positions": [
+    {
+      "q": 1,
+      "score": 10,
+      "reason": "承认历史研究成果又不以之穷尽艺术问题，保留两类认识共同必要。",
+      "source": "From Word to Concept英译PDF L214–243直接核，https://jochenteuffel.com/wp-content/uploads/2018/11/gadamer-from-word-to-concept-the-task-of-hermeneutics-as-philosophy.pdf"
+    },
+    {
+      "q": 2,
+      "score": 10,
+      "reason": "骑车例是减压力求平衡，保留作者政治专门能力自限及类比范围。",
+      "source": "同作L248–269直接核"
+    },
+    {
+      "q": 3,
+      "score": 10,
+      "reason": "解释学超出方法竞争，理解也不等于认定正确，回答范围恰当。",
+      "source": "同作L277–304直接核理解／同意区别；演说结尾其余凭冻结框架，未全部重读"
+    }
+  ],
+  "voice": {
+    "score": 12,
+    "blind_guess": "伽达默尔",
+    "reason": "让事情成为提问者的组织较有解释学特征；仍主要靠对话、事情本身关键词辨认。",
+    "limits": "首次盲猜与置信以已锁定A-blind.json为准；此单题组织高度共享，思想词不直接折算口吻，未做原语言文体认证。"
+  },
+  "edge": {
+    "score": 20,
+    "reason": "开场标明模拟，Q4正文明确区分框架迁移与作者真实立场，并保留事实及规范证据不足，未虚构当代意见。"
+  },
+  "sources": {
+    "score": 12,
+    "reason": "译本、转载和断续摘录明示；核心德文全篇未校，一些G7新增定位分散，书目状态与正文实读要区分。",
+    "primary_ratio_basis": "真理与方法、1993访谈、1994讲演3部一手，SEP/IEP二手2项；出版社G6仅书目不算正文，3/5；讲演PDF与转载不增计。"
+  },
+  "structure": {
+    "score": 12,
+    "reason": "4提示能落实到初读修订、开放问题、尺度及视域检查；后两条与前两条部分交叉，不能作为成熟普遍沟通模型。",
+    "models": [
+      "前理解修订",
+      "问题开放",
+      "测量与恰当性",
+      "视域非封闭容器"
+    ],
+    "boundaries": [
+      "理解不等于赞同",
+      "胁迫同意不证理解成功",
+      "恰当不得逃安全标准",
+      "不许诺消除所有分歧"
+    ],
+    "tensions": [
+      "测量可靠／合宜判断",
+      "理解可能有理／仍不同意"
+    ]
+  },
+  "total": 86,
+  "grade": "A",
+  "blockers": [],
+  "limitations": [
+    "单次离线答题、中文短段和局部原作核查不代表整个人格或全体系；直接打开不等于通读。",
+    "初次盲读缺完整题干，Q5/Q6共同题型容易诱发同构回答；辨识成功可能依赖概念线索，非纯文体命中。"
+  ],
+  "source_verification": [
+    {
+      "url": "https://jochenteuffel.com/wp-content/uploads/2018/11/gadamer-from-word-to-concept-the-task-of-hermeneutics-as-philosophy.pdf",
+      "status": "direct_partial",
+      "read": "英译PDF pp.4–6中艺术方法、骑车、理解与同意连续相关段；未整篇通读或原德文对照"
+    }
+  ],
+  "paired_comparison": {
+    "code": "P10",
+    "blind_preference": "first",
+    "mapped_result": "r3_better",
+    "post_unblinding_issues": [
+      "设计限制：首次匿名包未附完整题干；现已核冻结Q5/Q6。Q6只称可能不留意，并未断言每一习惯已经有害。盲判的条件性措辞疑点保留为歧义，不自动升级为确定错误；不回写盲判。Q5充分理由是否指客观充分或当事人自认充分也未定义，询问检验条件不直接算偷换题设。"
+    ],
+    "basis": "保留哈希锁定A-paired-blind.json的reasoning、expression及limits；仅据paired-mapping-private.json映射版本，不倒改初评。"
+  },
+  "original_report_sha256": "583cc6b5598faca75c1594218b946f4bb5d62eeebffbd6a2d9dee05b81339287",
+  "export_note": "Local read-path metadata omitted. Scores and judgments unchanged."
+}

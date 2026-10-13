@@ -1,0 +1,44 @@
+{
+  "plugin_modified": false,
+  "catalog_patch": "新增G8同主著，不增加独立作品；G6标仅书目；3/5与3/6分母口径明示",
+  "domain_evidence": {
+    "domain2": "历史概念L732–755",
+    "model": "前理解修订",
+    "domain1": "翻译/对话L594–655",
+    "status": "主著不同对象域，非完整问答逻辑或论争证据"
+  },
+  "canonical_modified": false,
+  "id": "gadamer-perspective",
+  "frozen_modified": false,
+  "statistics": "No new 20-paragraph sample or voice-pass claim",
+  "role": "researcher_not_final_judge",
+  "date": "2026-10-13",
+  "note_file": "15-r2-primary-evidence.md",
+  "sources": [
+    {
+      "type": "primary_german_OCR",
+      "unread": "问答逻辑完整章",
+      "version": "题名1990与1999平装信息混存，未校",
+      "url": "https://pdfcoffee.com/gadamer-hans-georg-wahrheit-und-methode-t-1-pdf-free.html",
+      "read": "L594–655，语言作为解释学经验媒介连续段；L732–755"
+    },
+    {
+      "type": "primary_german_transcription",
+      "version": "1994讲演转载",
+      "url": "https://jochenteuffel.com/2018/11/11/hans-georg-gadamers-vortrag-vom-wort-zum-begriff-die-aufgabe-der-hermeneutik-als-philosophie-bei-den-bamberger-hegelwochen-1994/",
+      "read": "L49–62复读"
+    }
+  ],
+  "remaining": [
+    "版本校勘",
+    "问答逻辑连续章",
+    "Habermas/Derrida双方",
+    "MIT404与Wordpress失败未计"
+  ],
+  "expression_patch": "日常说法→具体困难迫使重说→同例两个相互制约要求→返回问题并限定类比",
+  "modes": {
+    "textgame_persona": false,
+    "persona": "explicit_only",
+    "default": "neutral_thought"
+  }
+}

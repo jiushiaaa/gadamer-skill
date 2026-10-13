@@ -1,0 +1,97 @@
+{
+  "id": "gadamer-perspective",
+  "known_positions": [
+    {
+      "q": 1,
+      "score": 10,
+      "reason": "艺术史方法成功不穷尽艺术经验，两种知识均需",
+      "source": "Vom Wort zum Begriff；核查状态见source_audit"
+    },
+    {
+      "q": 2,
+      "score": 10,
+      "reason": "骑车类比强调适度平衡，不把类比当政治定律",
+      "source": "Vom Wort zum Begriff；核查状态见source_audit"
+    },
+    {
+      "q": 3,
+      "score": 10,
+      "reason": "解释学超出方法竞争，理解非同意",
+      "source": "Vom Wort zum Begriff；核查状态见source_audit"
+    }
+  ],
+  "source_audit": [
+    {
+      "url": "https://jochenteuffel.com/2018/11/11/hans-georg-gadamers-vortrag-vom-wort-zum-begriff-die-aufgabe-der-hermeneutik-als-philosophie-bei-den-bamberger-hegelwochen-1994/",
+      "status": "direct_read",
+      "scope": "直接德文网络66–81及92–98；非全篇精读"
+    }
+  ],
+  "judge": "B",
+  "model": "unknown",
+  "voice": {
+    "score": 11,
+    "reason": "盲认0.66，事情向人发问及谈话收束带有解释学组织，但仍依思想词，缺乏更完整的对话展开。",
+    "blind_guess": {
+      "code": "N12",
+      "guess": "伽达默尔",
+      "confidence": 0.66,
+      "alternatives": [
+        "苏格拉底",
+        "哈贝马斯"
+      ],
+      "formal_features": "由我们日常怎么说转入真正的问题；让别人的话构成困难，再把事情本身拟作提问者，结尾回到谈话。",
+      "content_clues": "事情本身向自己提出问题、开放谈话、他人意见改变理解，近于哲学解释学。",
+      "limits": "事情提问的表达有一定特征，但仍可能是通用解释学摘要。"
+    },
+    "limits": "事情提问的表达有一定特征，但仍可能是通用解释学摘要。 正式只用Q5，Q6不加分。"
+  },
+  "sources": {
+    "score": 13,
+    "reason": "来源列版本、已读局部及未读范围；本轮对已知题核查仅限source_audit，不把继承研究记录当本轮通读。",
+    "primary_ratio_basis": "真理与方法、访谈、讲演3部一手；SEP/IEP2二手，出版目录仅定位不计已读；3/5。"
+  },
+  "structure": {
+    "score": 12,
+    "reason": "有执行动作、反例和停止条件；仍是局部解释框架，缺完整跨域验证，不按标题数量判成熟。",
+    "models": [
+      "前理解修订",
+      "提问开放",
+      "实践尺度",
+      "视域辨析"
+    ],
+    "boundaries": [
+      "胁迫同意不证明理解",
+      "紧急事实不无限对话",
+      "视域不保证共识"
+    ],
+    "tensions": [
+      "测量可靠／合宜判断",
+      "理解有理可能／未必赞同"
+    ]
+  },
+  "edge": {
+    "score": 20,
+    "reason": "统一开场说明人物模拟；Q4正文明确为当代迁移或推断，保留未知和所缺依据，没有伪装成作者历史表态。"
+  },
+  "paired_comparison": {
+    "code": "P10",
+    "blind_preference": "first",
+    "mapped_preference": "r3_better",
+    "reasoning": "两版都允许保留合宜熟练并接受经验纠正；first用劝慰导致沉默说明何种新证据需要重学，second只有抽象的不合预期。",
+    "expression": "first答非所问由劝慰例子接住，再让沉默改变理解，转折具体且有连续性；second结尾分类清楚但更像总结式指导。",
+    "post_unblinding_issues": [
+      "已核Q6完整题干：习惯遮蔽注意只属可能；没有仅因原盲读未见题干而把条件疑点定为错误，保留初判。"
+    ],
+    "limits": "例子只是可能情景，不能从沉默唯一推出劝慰不合宜；这里只肯定例证的解释作用。 R2为Q5、R3为Q6，不是单变量实验。"
+  },
+  "blockers": [],
+  "limitations": [
+    "中文短样本及少数题，不能代表全书、全时期或人类专家认证。",
+    "原作仅核查source_audit所列位置；其余研究阅读记录为继承材料，不声称本评审通读。"
+  ],
+  "total": 86,
+  "grade": "A",
+  "original_report_sha256": "f87ba2c8af3285b762a57ca9834d2967a8229c48995413b7ecb8062b7e1d0b10",
+  "export_note": "Local read-path metadata omitted. Scores and judgments unchanged."
+}
