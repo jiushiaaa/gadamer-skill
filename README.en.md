@@ -1,14 +1,40 @@
-# Hans-Georg Gadamer · Skill
+<h1 align="center">gadamer.skill</h1>
 
-[中文](README.md) | **English**
+<p align="center">伽达默尔 · Hans-Georg Gadamer</p>
 
-[![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Agent Skills](https://img.shields.io/badge/Agent_Skills-Standard-blue.svg)](https://agentskills.io/) [![Made with Nuwa](https://img.shields.io/badge/Made_with-Nuwa-orange.svg)](https://github.com/alchaincyf/nuwa-skill)
+[中文](README.md) · **English**
 
-Understanding, tradition, and question-and-answer. A bounded, source-linked thinking resource with neutral analysis by default and an explicitly enabled expression mode.
+<blockquote>
+<p align="center">“Being that can be understood is language.”<br>— Hans-Georg Gadamer · <a href="https://www.uni-heidelberg.de/fakultaeten/philosophie/philsem/gadamerprofessur/gadamer_nachruf.html">Truth and Method</a></p>
+</blockquote>
 
-Built with [nvwa-skill](https://github.com/alchaincyf/nuwa-skill).
+[![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Agent Skills](https://img.shields.io/badge/Agent_Skills-Standard-blue.svg)](https://agentskills.io/) [![Made with nvwa-skill](https://img.shields.io/badge/Made_with-nvwa--skill-orange.svg)](https://github.com/alchaincyf/nuwa-skill)
 
-[Usage](USAGE.md) · [Research and entry point](SKILL.md)
+**A thinking skill for prior understanding, open questions, and practical judgment: expose assumptions in reading and dialogue, and allow a text or another person to change the question.**
+
+---
+
+## Examples
+
+Illustrative applications written for this README; these are not quotations from the philosopher or transcripts of a live run.
+
+### 1. Can I understand a historical text simply by setting prejudice aside?
+
+> Understanding does not begin without expectations. State them and examine which details require revision. Historical situatedness both limits and enables understanding; different perspectives do not remove the need to check facts.
+
+### 2. I let the other person explain. Why is the conversation going nowhere?
+
+> Check whether only a predetermined answer is acceptable and whether the other person can challenge the premise. Openness does not guarantee agreement; it allows an answer to change what you ask next.
+
+## What is distilled
+
+| Method | What it helps examine |
+|---|---|
+| Revising prior understanding | Compare initial expectations with counterevidence in the text. |
+| Open questioning | Allow unexpected answers and challenges to the question itself. |
+| Practical judgment | Consider measurable conditions alongside situated reasons. |
+
+These are selected, source-grounded methods, not a claim to cover the complete works. See [SKILL.md](SKILL.md) and [extraction notes](EXTRACTION.md) for scope and reasoning.
 
 ## Installation
 
@@ -34,17 +60,39 @@ git clone https://github.com/jiushiaaa/gadamer-skill.git
 
 If automatic skill loading is unavailable, provide `SKILL.md` together with the referenced files needed for your question. Research notes remain in their source languages; README and usage guides are bilingual.
 
-## Use
+## Usage
 
-Ask: “Use Hans-Georg Gadamer's ideas to analyze this problem, separating source claims from contemporary inference.” For expression simulation, explicitly request expression mode. Fiction writing and review use ideas without taking over the narrative voice. See the bilingual [usage guide](USAGE.md).
+- **Neutral analysis (default):** “Use Hans-Georg Gadamer’s ideas to analyze this question. Distinguish source claims from contemporary applications.”
+- **Persona expression (optional):** explicitly request “persona expression mode.” It is an acknowledged simulation, not a statement by the philosopher.
 
-## Coverage and evidence
+Fiction work uses the ideas while leaving narrative voice to the writing task. See the bilingual [usage guide](USAGE.md).
 
-The [entry point](SKILL.md) routes to documented, bounded methods and [extraction notes](EXTRACTION.md). The research directory records sources, actual reading ranges, translations, and unresolved gaps. It is not a distillation of the complete works. Research notes remain in their original languages.
+## Research sources
 
-## License
+Selections on prior understanding, horizons, and conversation in Truth and Method; interviews and lectures on practical judgment.
 
-Project-original material is [MIT licensed](LICENSE). Source quotations retain their separate rights. See [attribution](ATTRIBUTION.md).
+- [Source catalogue and reading ranges](source-catalog.md)
+- [Method extraction and evidence](EXTRACTION.md)
+- Opening quotation: <a href="https://www.uni-heidelberg.de/fakultaeten/philosophie/philsem/gadamerprofessur/gadamer_nachruf.html">Truth and Method</a>, quoted by Heidelberg University. English wording is translated where the source is not English; Chinese quotations are repository translations.
+
+## Repository structure
+
+Main files:
+
+```text
+├── SKILL.md  # Skill entry point and analysis methods
+├── README.md / README.en.md  # Chinese and English introduction
+├── USAGE.md  # Bilingual usage guide
+├── EXTRACTION.md  # Method extraction and evidence
+├── references/  # Research notes and optional expression mode
+└── LICENSE  # MIT license
+```
+
+## Built with
+
+Built with [nvwa-skill](https://github.com/alchaincyf/nuwa-skill).
+
+Original project material is [MIT licensed](LICENSE); quoted works and translations retain their separate rights. See [source notices](ATTRIBUTION.md).
 
 ## More skills
 
